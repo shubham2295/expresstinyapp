@@ -1,0 +1,10 @@
+[build]
+  base ="/"
+  publish="dist/"
+  functions= "functions/"
+  command = "npm run build"
+
+[[redirects]]
+  to="/.netlify/functions/express_server/:splat"
+  from="/*"
+  status= 200
