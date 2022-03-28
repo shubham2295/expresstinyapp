@@ -1,6 +1,8 @@
 [build]
-  
-  functions= "src/"
+  Command = "npm run build && npm run build:lambda"
+  Functions = "src"
+  Publish = "build"
+ 
   
 
 [[redirects]]
