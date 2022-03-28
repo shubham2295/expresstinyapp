@@ -8,8 +8,8 @@
     "test": "mocha",
     "tinyapp": "node express_server.js",
     "build1": "netlify-lambda build",
-    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+    "start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve functions",
+    "build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build functions"
   },
   "repository": {
     "type": "git",
