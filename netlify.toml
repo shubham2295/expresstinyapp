@@ -1,8 +1,7 @@
 [build]
-  base ="/"
-  publish="dist/"
+  
   functions= "src/"
-  command = "npm run build"
+  
 
 [[redirects]]
   to="/.netlify/src/express_server/:splat"
