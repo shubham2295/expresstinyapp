@@ -1,11 +1,9 @@
 [build]
-  Command = "npm run build && npm run build:lambda"
-  Functions = "src"
-  Publish = "build"
- 
+
+  functions= "functions"
   
 
 [[redirects]]
-  to="/.netlify/src/express_server/:splat"
+  to="/.netlify/functions/express_server/:splat"
   from="/*"
   status= 200
