@@ -8,7 +8,7 @@ const morgan = require('morgan');
 const cookieSession = require('cookie-session');
 const bcrypt = require('bcryptjs');
 const methodOverride = require('method-override');
-const { generateRandomString, getUserByEmail, urlsForUser, createErrorObject, users, urlDatabase } = require('./helpers');
+const { generateRandomString, getUserByEmail, urlsForUser, createErrorObject, users, urlDatabase } = require('../helpers');
 const PORT = 8080;
 
 //-------------Middlewears--------------------------------------------
