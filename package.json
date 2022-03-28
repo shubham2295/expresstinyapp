@@ -7,8 +7,8 @@
 		"watch": "nodemon",
 		"test": "mocha",
 		"tinyapp": "node express_server.js",
-		"start": "NODE_ENV=development ./node_modules/.bin/netlify-lambda serve src",
-		"build": "NODE_ENV=production ./node_modules/.bin/netlify-lambda build src"
+		"start": "./node_modules/.bin/netlify-lambda serve functions",
+		"build": "./node_modules/.bin/netlify-lambda build functions"
 	},
 	"repository": {
 		"type": "git",
