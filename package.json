@@ -32,9 +32,6 @@
     "netlify-lambda": "^2.0.15",
     "serverless-http": "^2.7.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
-  },
   "directories": {
     "doc": "docs",
     "test": "test"

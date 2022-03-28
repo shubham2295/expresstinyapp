@@ -4,7 +4,6 @@ const serverless = require('serverless-http');
 const app = express();
 const router = express.Router();
 const bodyParser = require('body-parser');
-const morgan = require('morgan');
 const cookieSession = require('cookie-session');
 const bcrypt = require('bcryptjs');
 const methodOverride = require('method-override');
