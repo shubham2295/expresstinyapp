@@ -1,12 +1,8 @@
 [build]
- command = "npm run build"
- functions= "functions-build"
-
-[dev]
-  publish = "build"
-  
+  command = "npm install && npm run build"
+  functions = "build"
 
 [[redirects]]
-  from="/*"
-  to="/.netlify/functions/server/:splat"
-  status= 200
+  from = "/*"
+  to = "/.netlify/functions/server/:splat"
+  status = 200
