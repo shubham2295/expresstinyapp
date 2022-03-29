@@ -20,6 +20,7 @@ app.use(cookieSession({
 }));
 app.use('/', router);
 //-------------View engine setup---------------------------------------
+app.engine('ejs', require('ejs').__express);
 app.set('view engine', 'ejs');
 
 
