@@ -22,7 +22,7 @@ app.use('/', router);
 //-------------View engine setup---------------------------------------
 app.engine('ejs', require('ejs').__express);
 app.set('view engine', 'ejs');
-app.set('views', '../views');
+app.set('views', './views');
 
 //-------------Login route-------------------------------------------------
 router.route('/login')
